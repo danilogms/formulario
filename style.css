@@ -16,7 +16,7 @@ form {
   margin: 0 auto;
 }
 
-input,
+input[type="text"],
 textarea {
   width: 100%;
   box-sizing: border-box;
@@ -36,4 +36,21 @@ textarea {
 
 .valido {
   border: 2px solid black;
+}
+
+span.preco-item {
+  color: aliceblue;
+  font-weight: bold;
+}
+
+
+span.data {
+  color: aliceblue;
+}
+
+span.check-span {
+  display: inline-block;
+  color: aliceblue;
+  padding: 5px;
+  margin-bottom: 5px;
 }

@@ -16,17 +16,40 @@
       <input type="email" name="email" id="email" required />
       <span class="erro2"></span>
       <label for="mensagem">Mensagem:</label>
-      <textarea name="mensagem" id="mensagem">Teste de Formulário</textarea>
+      <textarea name="mensagem" id="mensagem"></textarea>
     </form>
     <form name="cores-bg" id="cores-bg">
       <label for="nome-bg">Selecione a cor de fundo:</label>
-      <select name="cores" id="cores">
-        <option value="rgb(248, 39, 74)"></option>
-        <option value="plum">Roxo</option>
-        <option value="blue">Azul</option>
-        <option value="green">Verde</option>
-      </select>
+      <input type="color" /><br /><br />
     </form>
+    <form name="inputs">
+      <label for="data">Data da Viagem:</label>
+      <input type="date" />
+      <span class="data">ate</span>
+      <input type="date" />
+      <label for="number">Number:</label>
+      <input type="number" />
+      <label for="range">Range:</label>
+      <span class="preco-item">R$:0,00</span>
+      <input type="range" />
+      <label for="password">Senha:</label>
+      <input type="password" />
+    </form>
+    <form name="check">
+      <label for="check-name">Documentos Necessários:</label>
+      <input type="checkbox" value="identidade" id="identidade" />
+      <span class="check-span">Identidade</span>
+      <br />
+      <input type="checkbox" value="cpf" id="cpf" />
+      <span class="check-span">Cadastro Pessoa Física</span>
+      <br />
+      <input type="checkbox" value="cnh" id="cnh" />
+      <span class="check-span">Carteira Nacional de Habilitação</span>
+      <br />
+      <input type="checkbox" value="titulo-eleitoral" id="titulo-eleitoral" />
+      <span class="check-span">Titulo Eleitoral</span>
+    </form>
+
     <span class="texto"></span>
     <script src="script.js"></script>
   </body>
